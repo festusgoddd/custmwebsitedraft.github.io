@@ -1,0 +1,760 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F0EBE3;
+    position: sticky;
+    top: 0;
+    height: 5rem;
+    box-shadow: 2px 2px 2px black;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    margin: 20px 10px;
+}
+.navbar ul li{
+    display: flex;
+    font-family: serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 25px;
+}
+.logo{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #377D71;
+    font-size: 1.1rem;
+    padding: 15px;
+}
+.welcome{
+    background-image: url("custm website 2.jpeg");
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.welcome-text{
+    width: 500px;
+    height: 100vh;
+    margin-left: 14%;
+    padding-top: 150px;
+}
+.welcome-text p:nth-child(1){
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    padding: 10px 0px;
+    color: #377D71;
+    font-weight: 700;
+}
+.welcome-text p:nth-child(2){
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    color: gray;
+    font-weight: 500;
+}
+.welcome-text p:nth-child(3){
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    color: gray;
+    font-weight: 500;
+    padding: 5px 0px 4px 0px;
+}
+.welcome-text p:nth-child(4){
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    color: gray;
+    font-weight: 500;
+    padding: 5px 0px 4px 0px;
+}
+.welcome-text p:nth-child(5){
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    color: gray;
+    font-weight: 500;
+    padding: 5px 0px 10px 0px;
+}
+
+.get-started{
+    width: 150px;
+    height: 70px;
+    border-radius: 30px;
+    color: white;
+    background-color: #377D71;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.get-started:hover{
+    background-color: white;
+    color: #377D71;
+    box-shadow: 2px 2px 3px gray;
+    font-size: 1.1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.login{
+    width: 400px;
+    height: 450px;
+    margin: 10% auto 50px auto;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+}
+.login-form,.signup-form{
+    align-items: center;
+    justify-content: center;
+}
+input{
+   padding-top: 10px;
+   margin-left: 40px;
+   width: 250px;
+   border-top: none;
+   border-right: none;
+   border-left: none;
+   font-family: sans-serif;
+}
+.input:hover{
+    cursor: pointer;
+}
+label{
+    padding-top: 10px;
+    padding-bottom: 2px;  
+    padding-left: 50px;
+    font-style: 400;
+}
+.login-header,.signup-header{
+    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-left: 150px;
+    font-family: sans-serif;
+    font-size: 2.2rem;
+    color: #377D71;
+    font-weight: 500;
+}
+.login-button,.signup-button{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80px;
+    height: 35px;
+    border-radius: 15px;
+    border: 1px solid white;
+    background-color: #377D71;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    color: white;
+}
+.login-button:hover,.signup-button:hover{
+    background-color: white;
+    color: #377D71;
+    box-shadow: 2px 2px 5px gray;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.account{
+    margin-left: 40px;
+    font-size: 1.2rem;
+    font-family: san-serif;
+    font-weight: 400;
+}
+.login p a,.signup p a{
+    text-decoration: underline;
+    color: #377D71;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.login p a:hover,.signup p a:hover{
+    cursor: pointer;
+}
+.signup{
+    width: 400px;
+    height: 400px;
+    margin: 10% auto 50px auto;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+}
+.custmize{
+    background-image: url("custm website y.jpeg");
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.custmize-items{
+    padding-left: 200px;
+    padding-top: 80px;
+}
+.custmize-items p:nth-child(1){
+    color: #377D71;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 800px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.special{
+    color: #F0EBE3;
+    font-family: sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+}
+.custmize-items p:nth-child(2){
+    color: #377D71;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 19px;
+}
+.custmize-items ul{
+    padding-left: 80px;
+    list-style-type: circle;
+}
+.custmize-items ul a{
+    text-decoration: none;
+    font-family: serif;
+    color: grey;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.custmize-items ul a:hover{
+    cursor: pointer;
+    color: black;
+}
+.cart-container{
+    background-color: white;
+    height: 700px;
+}
+.construction{
+    padding-left: 650px;
+    padding-top: 250px;
+    font-family: montserrat;
+    color: #377D71;
+    font-size: 2rem;
+    height: 700px;
+
+}
+.construction p{
+    padding-left: 50px;
+    padding-top: 200px;
+    padding-bottom: 20px;
+    font-family: montserrat;
+    color: #377D71;
+    font-size: 2.1rem;
+}
+.cart{
+    padding-left: 500px;
+    padding-top: 250px;
+    font-family: montserrat;
+    color: #377D71;
+    font-size: 2rem;
+    height: 700px;
+
+}
+
+.cart p:nth-child(1){
+    padding-left: 190px;
+    font-size: 2.1rem;
+    padding-bottom: 20px;
+}
+.faq-page{
+    height: 700px;
+    width: 100%;
+    background-color: #F0EBE3;
+}
+.payment-info{
+    padding-top: 60px;
+    padding-left: 90px;
+    padding-bottom: 10px;
+    width: 700px;
+    
+}
+.payment-info p:nth-child(1){
+    font-family: sans-serif;
+    color: #377D71;
+    font-size: 1.4rem;
+    padding: 10px 0px;
+    font-weight: 600;
+}
+.payment-info p:nth-child(2){
+    font-family: serif;
+    font-size: 1.1rem;
+    color: gray;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.customer-care{
+    width: 70px;
+    height: 35px;
+    border-radius: 15px;
+    border: 1px solid white;
+    background-color: #377D71;
+}
+.customer-care a{
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    font-weight: 200;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.about-custm{
+    padding-top: 10px;
+    padding-left: 90px;
+    width: 700px;
+}
+.about-custm p:nth-child(1){
+    font-family: sans-serif;
+    color: #377D71;
+    font-size: 1.4rem;
+    padding: 10px 0px;
+    font-weight: 600;
+}
+.about-custm p:nth-child(2){
+    font-family: serif;
+    font-size: 1.1rem;
+    color: gray;
+    font-weight: 500;
+}
+.about-custm p:nth-child(3){
+    font-family: sans-serif;
+    color: #377D71;
+    font-size: 1rem;
+    padding: 5px 0px;
+}
+/*Media queries*/
+@media (max-width: 1200px){
+    .construction{
+        padding-left: 300px;
+        padding-top: 250px;
+        font-family: montserrat;
+        color: #377D71;
+        font-size: 2rem;
+        height: 700px;
+    
+    }
+    .cart{
+        padding-left: 300px;
+        padding-top: 250px;
+        font-family: montserrat;
+        color: #377D71;
+        font-size: 2rem;
+        height: 700px;
+    
+    }
+}
+@media (max-width: 1100px){
+    .navbar{
+        display:none;
+    }
+    .construction{
+        padding-left: 380px;
+        padding-top: 250px;
+        font-family: montserrat;
+        color: #377D71;
+        font-size: 2rem;
+        height: 700px;
+    
+    }
+}
+@media (max-width: 1000px){
+    .welcome{
+        width: 1000px;
+        height: 600px;
+    }
+    .welcome-text{
+        width: 400px;
+        height: 100vh;
+        margin-left: 12%;
+        padding-top: 80px;
+    }
+    .welcome-text p:nth-child(1){
+        font-size: 2.2rem;
+        font-family: sans-serif;
+        padding: 10px 0px;
+        color: #377D71;
+        font-weight: 600;
+    }
+    .welcome-text p:nth-child(2){
+        font-family: sans-serif;
+        font-size: 1rem;
+        color: gray;
+        font-weight: 400;
+    }
+    .welcome-text p:nth-child(3){
+        font-family: sans-serif;
+        font-size: 1rem;
+        color: gray;
+        font-weight: 400;
+        padding: 5px 0px 4px 0px;
+    }
+    .welcome-text p:nth-child(4){
+        font-family: sans-serif;
+        font-size: 1rem;
+        color: gray;
+        font-weight: 400;
+        padding: 5px 0px 4px 0px;
+    }
+    .welcome-text p:nth-child(5){
+        font-family: sans-serif;
+        font-size: 1rem;
+        color: gray;
+        font-weight: 400;
+        padding: 5px 0px 10px 0px;
+    }
+    
+    .get-started{
+        width: 120px;
+        height: 60px;
+        border-radius: 25px;
+        color: white;
+        background-color: #377D71;
+        outline: none;
+        border: none;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .get-started:hover{
+        background-color: white;
+        color: #377D71;
+        box-shadow: 2px 2px 3px gray;
+        font-size: 1rem;
+        font-weight: 400;
+        cursor: pointer;
+    }
+    .login,.signup{
+        width: 400px;
+        height: 450px;
+        padding-left: 100px;
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 20px;
+    }
+    .login-header,.signup-header{
+        padding-bottom: 40px;
+        padding-top: 20px;
+        padding-left: 120px;
+        font-family: sans-serif;
+        font-size: 2rem;
+        color: #377D71;
+        font-weight: 500;
+    }
+    .construction{
+        padding-left: 300px;
+        padding-top: 200px;
+        font-family: montserrat;
+        color: #377D71;
+        font-size: 1.5rem;
+        height: 600px;
+    
+    }
+    .cart{
+        padding-left: 300px;
+        padding-top: 200px;
+        font-family: montserrat;
+        color: #377D71;
+        font-size: 1.5rem;
+        height: 500px;
+    }
+    .construction p{
+        padding-left: 120px;
+        padding-top: 200px;
+        padding-bottom: 20px;
+        font-family: montserrat;
+        color: #377D71;
+        font-size: 2rem;
+    }
+    .cart p:nth-child(1){
+        padding-left: 120px;
+        font-size: 2rem;
+        padding-bottom: 20px;
+    }
+    .custmize{
+        background-image: url("custm\ website\ y.jpeg");
+        width: 1000px;
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .custmize-items p:nth-child(1){
+        color: #377D71;
+        font-family: sans-serif;
+        font-size: 18px;
+        width: 600px;
+        font-weight: 500;
+        padding-bottom: 20px;
+    }
+    .special{
+        color: #F0EBE3;
+        font-family: sans-serif;
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .custmize-items p:nth-child(2){
+        color: #377D71;
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        padding-bottom: 19px;
+    }
+    .custmize-items ul a{
+        text-decoration: none;
+        font-family: serif;
+        color: grey;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .faq-page{
+        height: 600px;
+        width: 1000px;
+        background-color: #F0EBE3;
+    }
+}
+@media (max-width: 700px){
+    .login,.signup{
+        width: 400px;
+        height: 450px;
+        padding-left: 140px;
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 20px;
+    }
+}
+@media (max-width: 600px){
+    .construction{
+        padding-left: 320px;
+        padding-top: 200px;
+        font-family: montserrat;
+        color: #377D71;
+        font-size: 1.2rem;
+        height: 500px;
+    
+    }
+    .cart{
+        padding-left: 320px;
+        padding-top: 200px;
+        font-family: montserrat;
+        color: #377D71;
+        font-size: 1.2rem;
+        height: 500px;
+    }
+    .construction p{
+        padding-left: 40px;
+        padding-top: 200px;
+        padding-bottom: 20px;
+        font-family: montserrat;
+        color: #377D71;
+        font-size: 2rem;
+    }
+    .cart p:nth-child(1){
+        padding-left: 40px;
+        font-size: 2rem;
+        padding-bottom: 20px;
+    }
+    .custmize{
+        background-image: url("custm\ website\ y.jpeg");
+        width: 1000px;
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .custmize-items p:nth-child(1){
+        color: #377D71;
+        font-family: sans-serif;
+        font-size: 18px;
+        width: 600px;
+        font-weight: 500;
+        padding-bottom: 20px;
+    }
+    .special{
+        color: #F0EBE3;
+        font-family: sans-serif;
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .custmize-items p:nth-child(2){
+        color: #377D71;
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        padding-bottom: 19px;
+    }
+    .custmize-items ul a{
+        text-decoration: none;
+        font-family: serif;
+        color: grey;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .login,.signup{
+        width: 400px;
+        height: 450px;
+        padding-left: 200px;
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 20px;
+    }
+}
+@media (max-width: 500px){
+    .payment-info p:nth-child(1){
+        font-family: sans-serif;
+        color: #377D71;
+        font-size: 1.2rem;
+        padding: 10px 0px;
+        font-weight: 600;
+    }
+    .payment-info p:nth-child(2){
+        font-family: serif;
+        font-size: 1rem;
+        color: gray;
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
+    .customer-care{
+        width: 70px;
+        height: 35px;
+        border-radius: 15px;
+        border: 1px solid white;
+        background-color: #377D71;
+    }
+    .customer-care a{
+        font-family: sans-serif;
+        font-size: 0.8rem;
+        font-weight: 200;
+        color: white;
+        text-decoration: none;
+        padding: 5px;
+    }
+    .about-custm{
+        padding-top: 10px;
+        padding-left: 90px;
+        width: 700px;
+    }
+    .about-custm p:nth-child(1){
+        font-family: sans-serif;
+        color: #377D71;
+        font-size: 1.2rem;
+        padding: 10px 0px;
+        font-weight: 600;
+    }
+    .about-custm p:nth-child(2){
+        font-family: serif;
+        font-size: 1rem;
+        color: gray;
+        font-weight: 500;
+    }
+    .about-custm p:nth-child(3){
+        font-family: sans-serif;
+        color: #377D71;
+        font-size: 1rem;
+        padding: 5px 0px;
+    }
+    .login,.signup{
+        width: 400px;
+        height: 450px;
+        padding-left: 220px;
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 20px;
+    }
+    .login-header,.signup-header{
+        padding-bottom: 40px;
+        padding-top: 20px;
+        padding-left: 120px;
+        font-family: sans-serif;
+        font-size: 1.8rem;
+        color: #377D71;
+        font-weight: 500;
+    }
+    label{
+        padding-top: 10px;
+        padding-bottom: 1px;  
+        padding-left: 50px;
+        font-style: 400;
+        font-size: 14px;
+        display: flex;
+    }
+    .account{
+        margin-left: 40px;
+        font-size: 1rem;
+        font-family: san-serif;
+        font-weight: 300;
+    }
+    .construction{
+        padding-left: 350px;
+        padding-top: 200px;
+        font-family: montserrat;
+        color: #377D71;
+        font-size: 1rem;
+        height: 600px;
+    }
+    .construction p{
+        padding-left: 20px;
+        padding-top: 200px;
+        padding-bottom: 20px;
+        font-family: montserrat;
+        color: #377D71;
+        font-size: 1.5rem;
+    }
+    .cart p:nth-child(1){
+        padding-left: 20px;
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 450px) {
+    .construction{
+        padding-left: 400px;
+        padding-top: 200px;
+        font-family: montserrat;
+        color: #377D71;
+        font-size: 14pxrem;
+        height: 600px;  
+    }
+    .cart{
+        padding-left: 400px;
+        padding-top: 200px;
+        font-family: montserrat;
+        color: #377D71;
+        font-size: 14pxrem;
+        height: 500px;
+    }
+    .construction p{
+        padding-left: 0;
+        padding-top: 200px;
+        padding-bottom: 2px;
+        font-family: montserrat;
+        color: #377D71;
+        font-size: 1.2rem;
+    }
+    .cart p:nth-child(1){
+        padding-left: 0;
+        font-size: 1.2rem;
+        padding-bottom: 20px;
+    }
+    .login,.signup{
+        width: 400px;
+        height: 450px;
+        padding-left: 250px;
+        background-color: white;
+    }
+}
